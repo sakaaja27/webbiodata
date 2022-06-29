@@ -10,8 +10,7 @@ $keahlian = query("SELECT nama_keahlian,keterangan FROM keahlian WHERE keahlian.
 $pendidkan =  query("SELECT riwayat_pendidikan,nama_pendidikan FROM pendidkan WHERE pendidkan.id_utama = $id");
 ?>
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en"> 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />

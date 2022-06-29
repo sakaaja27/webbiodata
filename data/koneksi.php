@@ -10,7 +10,7 @@ function query($query)
 
   $result = mysqli_query($conn, $query);
 
-  // jika hasilnya hanya 1 data
+  // jika hasilnya hanya 1 data aja ya bund
   if (mysqli_num_rows($result) == 1) {
     return mysqli_fetch_assoc($result);
   }

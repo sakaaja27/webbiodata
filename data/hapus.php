@@ -11,5 +11,5 @@ if(hapus($id) > 0) {
         </script>";
 } else {
 echo "Data gagal dihapus";
-}
+} 
  ?>

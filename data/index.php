@@ -13,7 +13,6 @@ $conn = mysqli_connect('localhost', 'root', '', 'biodata');
 
 // Query isi tabel 
 $result = mysqli_query($conn, "SELECT * FROM data_diri");
-
 // ubah data ke dalam array
 // $row = mysqli_fetch_row($result); // array numerik
 // $row = mysqli_fetch_assoc($result); // array associative
