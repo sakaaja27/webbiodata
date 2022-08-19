@@ -1,0 +1,34 @@
+:root {
+	--gradient:linear-gradient( 109.6deg,  rgba(255,179,189,1) 1.8%, rgba(254,248,154,1) 50.6%, rgba(161,224,186,1) 100.3% );
+	--gra:linear-gradient( 64.5deg,  rgba(245,116,185,1) 7.7%, rgba(89,97,223,1) 88.7% );
+}
+body {
+	background-color: #eaeaea;
+	background-image: var(--gra);
+	background-size: 200%;
+	animation: gradient-animation 3s infinite alternate;
+}
+@keyframes gradient-animation {
+	0%{
+		background-position: left;
+
+	}
+	100%{
+		background-position: right;
+	}
+}
+.container {
+	background-color: #eaeaea;
+	background-image: var(--gra);
+	background-size: 200%;
+	animation: gradient-animation 3s infinite alternate;
+}
+@keyframes gradient-animation {
+	0%{
+		background-position: left;
+
+	}
+	100%{
+		background-position: right;
+	}
+}
